@@ -1,0 +1,3 @@
+class Todo < Model
+
+end

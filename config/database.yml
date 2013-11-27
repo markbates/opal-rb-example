@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: opal_app_development
+  pool: 100
+  username: postgres
+  password: postgres
+  host: 127.0.0.1
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: opal_app_test
+  pool: 5
+  username: postgres
+  password: postgres
+  min_messages: WARNING
+  host: 127.0.0.1
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: opal_app_production
+  pool: 25
+  username: postgres
+  password: postgres
+  host: 127.0.0.1
